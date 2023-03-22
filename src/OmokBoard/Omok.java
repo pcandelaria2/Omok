@@ -12,7 +12,6 @@ public class Omok {
         String computerString = ("Computer vs Computer Selected");
 
         var text = new JTextField(20);
-
         text.setEditable(false);
 
         var panel = new JPanel();
