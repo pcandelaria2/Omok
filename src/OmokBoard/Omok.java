@@ -10,8 +10,11 @@ public class Omok {
         // sample UI
         String playerString = ("Player vs Player Selected");
         String computerString = ("Computer vs Computer Selected");
+
         var text = new JTextField(20);
+
         text.setEditable(false);
+
         var panel = new JPanel();
         panel.setPreferredSize(new Dimension(600, 600));
         JRadioButton playerButton = new JRadioButton("Player");
